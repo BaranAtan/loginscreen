@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F0F3;
+    height: 100vh;
+
+}
+
+.main {
+    display: flex;
+    width: 70%;
+    height: 85%;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    background-color: white;
+
+}
+
+.left-side {
+    background-color: #3BB397;
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px 0 0 15px;
+}
+
+.l-content {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.l-p {
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #3BB397;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.7s all ease;
+}
+
+.a:hover {
+    background-color: white;
+    border: 1px solid #ddd;
+    color: #3BB397;
+}
+
+.aa:hover {
+    background-color: white;
+    border: 1px solid #3BB397;
+    color: #3BB397;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 60%;
+
+
+
+}
+
+.r-content {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.r-title {
+    color: #3BB397;
+
+}
+
+.icons {
+    display: flex;
+
+}
+
+.icons i {
+    border: 1px solid #ddd;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    transform: translateY(-10px);
+}
+
+.r-p {
+    color: #A2A2A2;
+}
+
+.form {
+    flex-basis: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.input {
+    width: 250px;
+    background-color: #f4f8f7;
+    height: 50px;
+    border: none;
+    padding: 20px 20px 20px 40px;
+    font-size: 16px;
+
+}
+
+.input::placeholder {
+    color: #A2A2A2;
+}
+
+.i-div {
+    position: relative;
+}
+
+.form i {
+    position: absolute;
+    font-size: 20px;
+    color: #A2A2A2;
+    top: 25%;
+    left: 4%;
+}
